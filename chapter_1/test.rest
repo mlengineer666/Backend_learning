@@ -1,0 +1,27 @@
+### TEST GET / WEBSITE
+
+GET https://vigilant-invention-7v5pwq7p9gpfwrgj-8090.app.github.dev/home
+
+
+### TEST GET /dashboard WEBSITE
+
+GET https://vigilant-invention-7v5pwq7p9gpfwrgj-8090.app.github.dev/vigilant-invention-7v5pwq7p9gpfwrgj-8090.app.github.dev/dashboard
+
+
+### DATA endpoint
+
+GET https://vigilant-invention-7v5pwq7p9gpfwrgj-8090.app.github.dev/api/data
+
+### DATA endpoint for adding a user
+POST  https://vigilant-invention-7v5pwq7p9gpfwrgj-8090.app.github.dev/api/data
+Content-Type: application/json
+
+{
+    "name";"Geeks"
+}
+
+
+
+
+
+
