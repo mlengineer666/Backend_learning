@@ -50,11 +50,12 @@ console.log(age); // not error bcz defined with var and it is function scope
 console.log(greeting);   // undefined special data types
 var greeting = 'Hello';  // applicable only in var ,not in (const and let)
 
+// use const and let , var is old
 
 const num = 45;
 console.log(num);
 
-// use const and let , var is old
+
 
 
 
