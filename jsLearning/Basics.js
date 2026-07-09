@@ -39,8 +39,23 @@ if (true){
     // let age = 21;
     var age = 25
 }
+
 console.log(age); // error bcz age defined inside block and happen with both let and const
 console.log(age); // not error bcz defined with var and it is function scope
+
+// const name = 30;
+
+/* Interview pov imp */
+// Hoisting
+console.log(greeting);   // undefined special data types
+var greeting = 'Hello';  // applicable only in var ,not in (const and let)
+
+
+const num = 45;
+console.log(num);
+
+// use const and let , var is old
+
 
 
 
