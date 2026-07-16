@@ -199,18 +199,62 @@ const total_budget = movies.reduce((acc,movie)=>{
     acc += movie.budget
     return acc
 },0)
-
+ 
 console.log(total_budget)
 
 
+// Indexof: return index of that value
+const admins = [2,1,3];
+
+const user ={
+        name: 'XYZ',
+        id: 2
+}
+
+console.log(admins.indexOf(user.id))
+
+
+// Includes
+console.log(admins.includes(user.id))
+
+
+/* find */
+
+const users_id = [
+    {
+        name: 'xyz',
+        id: 1
+    },
+    {
+        name: 'www',
+        id: 2
+    },
+    {
+        name: 'bbc',
+        id: 3
+    },
+];
+
+const my_user = users_id.find((user)=>{
+    return user.id === 3
+})
+
+console.log(my_user)
+
+
+/* sort method: original array modified */
+
+const names = ['john','Jane','Shyam','Ram','Sameer','Mansi'];
+names.sort();
+
+console.log(names)
 
 
 
+/* splice : splice(start, end) use to remove any element b/w ranges */
 
+const names_list = ['john','Jane','Shyam','Ram','Sameer','Mansi'];
 
-
-
-
-
+console.log(names_list.splice(2,1))
 
 
